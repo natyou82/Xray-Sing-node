@@ -31,7 +31,7 @@ const CONFIG = {
     SB_SNI: process.env.SB_SNI || "time.android.com",
     SB_MASS_PROXY: process.env.SB_MASS_PROXY || "https://www.gstatic.com",
     SB_DOMAIN: process.env.SB_DOMAIN || process.env.DOMAIN,
-    SB_HOST: process.env.SB_HOST || "209.205.228.237",
+    SB_HOST: process.env.SB_HOST || "127.0.0.1",
     SB_OBFS_PWD: process.env.SB_OBFS_PWD || Math.random().toString(36).slice(2) + Math.random().toString(36).slice(2)
 };
 
