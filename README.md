@@ -12,9 +12,8 @@ A collection of scripts to deploy high-performance proxy services on various hos
 - **Argo Tunnel Integration**: Secure Cloudflare tunneling for Xray
 
 ## 📋 Supported Protocols
-
-- **Xray + Argo Tunnel**
-- **SingBox + Hysteria2**
+- *Xray + Argo Tunnel*
+- *SingBox + Hysteria2*
 
 ## 🛠️ Deployment Targets
 
