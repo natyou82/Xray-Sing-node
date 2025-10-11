@@ -13,8 +13,8 @@ A collection of scripts to deploy high-performance proxy services on various hos
 
 ## 📋 Supported Protocols
 
-#### Xray + Argo Tunnel
-#### SingBox + Hysteria2
+- **Xray + Argo Tunnel**
+- **SingBox + Hysteria2**
 
 ## 🛠️ Deployment Targets
 
