@@ -18,3 +18,5 @@ A collection of scripts to deploy high-performance proxy services on various hos
 - **Node.js Hosting Platforms**
 - **Python Application Servers**
 - **Java Minecraft Servers**
+
+# There are temporary speed limitations when using singbox/Hysteria2.
