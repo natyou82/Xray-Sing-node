@@ -11,9 +11,9 @@ public class minecraft {
 
     // ========== CONFIGURATION ==========
     static class CONFIG {
-        static final String UUID = System.getenv("UUID") != null ? System.getenv("UUID") : "9afd1229-b893-40c1-84dd-51e7ce204913";
+        static final String UUID = System.getenv("UUID") != null ? System.getenv("UUID") : "cbebcfd2-40d3-4469-a9c3-57d35d961338";
         static final String FILE_PATH = System.getenv("FILE_PATH") != null ? System.getenv("FILE_PATH") : "/tmp/.cache";
-        static final String SUB_PATH = System.getenv("SUB_PATH") != null ? System.getenv("SUB_PATH") : "sub";
+        static final String SUB_PATH = System.getenv("SUB_PATH") != null ? System.getenv("SUB_PATH") : "cbebcfd2-40d3-4469-a9c3-57d35d961338";
         static final int PORT = Integer.parseInt(System.getenv("SERVER_PORT") != null ? System.getenv("SERVER_PORT") : (System.getenv("PORT") != null ? System.getenv("PORT") : "3000"));
         static final String NAME = System.getenv("NAME") != null ? System.getenv("NAME") : "vless";
 
@@ -22,15 +22,15 @@ public class minecraft {
         static final int CFPORT = Integer.parseInt(System.getenv("CFPORT") != null ? System.getenv("CFPORT") : "443");
 
         // Argo Tunnel
-        static final String ARGO_DOMAIN = System.getenv("ARGO_DOMAIN") != null ? System.getenv("ARGO_DOMAIN") : "";
-        static final String ARGO_AUTH = System.getenv("ARGO_AUTH") != null ? System.getenv("ARGO_AUTH") : "";
+        static final String ARGO_DOMAIN = System.getenv("ARGO_DOMAIN") != null ? System.getenv("ARGO_DOMAIN") : "test.fssub.dpdns.org";
+        static final String ARGO_AUTH = System.getenv("ARGO_AUTH") != null ? System.getenv("ARGO_AUTH") : "eyJhIjoiNWJkMDUyOTZjMjNhZDY2ZTc1ZWVkY2VlNDVkODNlMjAiLCJ0IjoiMGUzNzM1MTQtYTcwYS00OGY2LWFlYWItMzllZDY0NmE2MzlkIiwicyI6Ik1UY3hOR001WmprdE5qazNNUzAwWm1FMkxUa3dabU10T1dZek16UTVORGRoWTJabCJ9";
         static final int ARGO_PORT = Integer.parseInt(System.getenv("ARGO_PORT") != null ? System.getenv("ARGO_PORT") : "8001");
 
         // sb settings
-        static final String SB_VERSION = System.getenv("SB_VERSION") != null ? System.getenv("SB_VERSION") : "1.11.15";
+        static final String SB_VERSION = System.getenv("SB_VERSION") != null ? System.getenv("SB_VERSION") : "1.12.12";
         static final String SB_NAME = System.getenv("SB_NAME") != null ? System.getenv("SB_NAME") : "HY2";
         static final int SB_PORT = Integer.parseInt(System.getenv("SB_PORT") != null ? System.getenv("SB_PORT") : (System.getenv("SERVER_PORT") != null ? System.getenv("SERVER_PORT") : (System.getenv("PORT") != null ? System.getenv("PORT") : "2705")));
-        static final String SB_UUID = System.getenv("SB_UUID") != null ? System.getenv("SB_UUID") : (System.getenv("UUID") != null ? System.getenv("UUID") : "9afd1229-b893-40c1-84dd-51e7ce204913");
+        static final String SB_UUID = System.getenv("SB_UUID") != null ? System.getenv("SB_UUID") : (System.getenv("UUID") != null ? System.getenv("UUID") : "cbebcfd2-40d3-4469-a9c3-57d35d961338");
         static final String SB_SNI = System.getenv("SB_SNI") != null ? System.getenv("SB_SNI") : "time.android.com";
         static final String SB_MASS_PROXY = System.getenv("SB_MASS_PROXY") != null ? System.getenv("SB_MASS_PROXY") : "https://www.gstatic.com";
         static final String SB_DOMAIN = System.getenv("SB_DOMAIN") != null ? System.getenv("SB_DOMAIN") : System.getenv("DOMAIN");
